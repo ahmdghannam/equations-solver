@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activities.navigationScreen">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_72sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/button_background"
+                android:text="@string/one_variable_equation_quadratic"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_72sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_4sdp"
+                android:background="@drawable/button_background"
+                android:text="@string/decimal_to_binary_or_vice_versa"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_72sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_background"
+                android:text="@string/two_variables_equations"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_72sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_background"
+                android:gravity="center"
+                android:text="@string/two_variables_equations"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_72sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_background"
+                android:text="@string/two_variables_equations"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_72sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_background"
+                android:text="@string/two_variables_equations"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_72sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_background"
+                android:text="@string/two_variables_equations"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_72sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_background"
+                android:text="@string/two_variables_equations"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">solver</string>
+    <string name="textview"><![CDATA["    -WELCOME TO EQUATIONS SOLVER-
+            \n\n \t\t\t\t please choose one of \n\t\t\t\tthese equations to solve\n\
+      1. one variable first order \n\n         'aX+b=r'\n
+       2. one variable second order \n\n        'a(X^2)+bX+c=r'\n
+       3. two equations(vars) first order \n\n        'aX+bY=r1 & cX+dY=r2'\n
+        4. decimal to binary or vice versa \n
+
+        "
+]]></string>
+    <string name="we_deal_with_equation_in_this_form_a_x_2_bx_c_r">we deal with equation in this form : a(X^2)+bX+c=r</string>
+    <string name="enter_the_number_here_please">enter the number here please</string>
+    <string name="next">next</string>
+    <string name="m_error">mathematical error</string>
+    <string name="firstTime">\t\twelcome to solver, \n\t\t your operations history will show here !\n</string>
+    <string name="one_variable_equation_linear">one variable equation (linear)</string>
+    <string name="one_variable_equation_quadratic">one variable equation (Quadratic)</string>
+    <string name="decimal_to_binary_or_vice_versa">decimal to binary or vice versa</string>
+    <string name="two_variables_equations">two variables equations</string>
+    <string name="a">a</string>
+    <string name="b">b</string>
+    <string name="r">r</string>
+    <string name="we_deal_with_equation_in_this_form_ax_b_r">we deal with equation in this form : aX+b=r</string>
+    <string name="evaluate">evaluate</string>
+    <string name="r2">r2</string>
+    <string name="r1">r1</string>
+    <string name="c">c</string>
+    <string name="d">d</string>
+    <string name="we_deal_with_equations_in_this_form_n_ax_by_r1_n_cx_dy_r2_n">we deal with equations in this form :\n aX+bY=r1\n cX+dY=r2 \n</string>
+    <string name="d_to_b">d to b</string>
+    <string name="decimal_number_to_binary_or_vice_versa">decimal number to binary or vice versa</string>
+    <string name="b_to_d">B to d</string>
+</resources>

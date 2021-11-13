@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activities.one">
+
+    <EditText
+        android:id="@+id/editTextNumberSigned6"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/r2"
+        android:inputType="numberSigned"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextNumberSigned5"
+        app:layout_constraintEnd_toEndOf="@+id/editTextNumberSigned3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumberSigned3"
+        app:layout_constraintTop_toTopOf="@+id/editTextNumberSigned5" />
+
+    <EditText
+        android:id="@+id/editTextNumberSigned3"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/r1"
+        android:inputType="numberSigned"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextNumberSigned2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/editTextNumberSigned2"
+        app:layout_constraintTop_toTopOf="@+id/editTextNumberSigned2" />
+
+    <EditText
+        android:id="@+id/editTextNumberSigned4"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/c"
+        android:inputType="numberSigned"
+        app:layout_constraintEnd_toEndOf="@+id/editTextNumber"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumber"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+
+    <EditText
+        android:id="@+id/editTextNumberSigned5"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/d"
+        android:inputType="numberSigned"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextNumberSigned4"
+        app:layout_constraintEnd_toEndOf="@+id/editTextNumberSigned2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumberSigned2"
+        app:layout_constraintTop_toTopOf="@+id/editTextNumberSigned4" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/a"
+        android:inputType="numberSigned"
+        app:layout_constraintEnd_toStartOf="@+id/editTextNumberSigned2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/editTextNumberSigned2"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/b"
+        android:inputType="numberSigned"
+        app:layout_constraintEnd_toStartOf="@+id/editTextNumberSigned3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/editTextNumber"
+        app:layout_constraintTop_toTopOf="@+id/editTextNumber" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_46sdp"
+        android:layout_marginStart="@dimen/_70sdp"
+        android:layout_marginEnd="@dimen/_70sdp"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:text="@string/evaluate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.09"
+        android:background="@drawable/button_background"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_140sdp"
+        android:layout_marginTop="@dimen/_52sdp"
+        android:gravity="center"
+        android:text="@string/we_deal_with_equations_in_this_form_n_ax_by_r1_n_cx_dy_r2_n"
+        android:textSize="@dimen/_20sdp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"  android:autoSizeTextType="uniform"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_marginTop="@dimen/_48sdp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:textSize="@dimen/_20sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberSigned5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

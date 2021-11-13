@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.medo.equationssolver">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/equationssolvericonv2squar"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/equationssolvericonv2round"
+        android:supportsRtl="true"
+        >
+        <activity
+            android:name=".view.activities.infoScreen"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.EquationsSolver"
+            />
+        <activity
+            android:name=".view.activities.four"
+            android:screenOrientation="portrait" android:theme="@style/Theme.EquationsSolver"/>
+        <activity
+            android:name=".view.activities.three"
+            android:screenOrientation="portrait" android:theme="@style/Theme.EquationsSolver"/>
+        <activity
+            android:name=".view.activities.two"
+            android:screenOrientation="portrait" android:theme="@style/Theme.EquationsSolver"/>
+        <activity
+            android:name=".view.activities.one"
+            android:screenOrientation="portrait" android:theme="@style/Theme.EquationsSolver"/>
+        <activity
+            android:name=".view.activities.navigationScreen"
+            android:screenOrientation="portrait" android:theme="@style/Theme.EquationsSolver"/>
+        <activity
+            android:name=".view.activities.LoadingScreen"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.EquationsSolver.loadingScreen"
+            >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+         <!--makes this activity to start first-->
+        </activity>
+    </application>
+
+</manifest>
