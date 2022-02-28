@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android_studio/equationssolver/app/src/main/res/layout-v26/activity_main.xml" value="0.33" />
+        <entry key="..\:/Android_studio/equationssolver/app/src/main/res/layout/activity_loading_screen.xml" value="1.25" />
+        <entry key="..\:/Android_studio/equationssolver/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Android_studio/equationssolver/app/src/main/res/layout/activity_main2.xml" value="0.25" />
         <entry key="..\:/Android_studio/equationssolver/app/src/main/res/layout/activity_one.xml" value="0.2934485896269336" />
       </map>
