@@ -10,14 +10,14 @@ import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 
 import com.medo.equationssolver.R;
+import com.medo.equationssolver.view.activities.infoScreen.infoScreen
 import kotlinx.android.synthetic.main.activity_loading_screen.*
 
-public class LoadingScreen : AppCompatActivity() {
+ class LoadingScreen : AppCompatActivity() {
     override fun onCreate( savedInstanceState:Bundle?) {
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loading_screen);
-         var animation=AnimationUtils.loadAnimation(applicationContext,R.anim.animation_splash)
+         val animation=AnimationUtils.loadAnimation(applicationContext,R.anim.animation_splash)
         ivLogo.animation=animation
            animation.setAnimationListener(object :Animation.AnimationListener{
                override fun onAnimationStart(p0: Animation?) {
@@ -26,7 +26,7 @@ public class LoadingScreen : AppCompatActivity() {
 
                override fun onAnimationEnd(p0: Animation?) {
                  Handler(Looper.getMainLooper())
-                .postDelayed({ startActivity(Intent(this@LoadingScreen, infoScreen::class.java));finish()},1000)
+                .postDelayed({ startActivity(Intent(this@LoadingScreen, infoScreen::class.java));finish()},10)
                }
 
                override fun onAnimationRepeat(p0: Animation?) {

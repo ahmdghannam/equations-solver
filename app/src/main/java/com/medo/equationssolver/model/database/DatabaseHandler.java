@@ -8,8 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
 
-import com.medo.equationssolver.model.recyclerView.Operation;
-import com.medo.equationssolver.view.activities.infoScreen;
+import com.medo.equationssolver.view.activities.infoScreen.Operation;
 
 import java.util.ArrayList;
 import java.util.List;

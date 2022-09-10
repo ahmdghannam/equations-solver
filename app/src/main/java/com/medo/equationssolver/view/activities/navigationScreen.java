@@ -8,7 +8,10 @@ import android.view.View;
 import android.widget.Button;
 
 import com.medo.equationssolver.R;
-import com.medo.equationssolver.databinding.RecyclerViewLayoutBinding;
+import com.medo.equationssolver.view.activities.calculatorsScreens.four;
+import com.medo.equationssolver.view.activities.calculatorsScreens.one;
+import com.medo.equationssolver.view.activities.calculatorsScreens.three;
+import com.medo.equationssolver.view.activities.calculatorsScreens.two;
 
 public class navigationScreen extends AppCompatActivity {
  Button btn[];

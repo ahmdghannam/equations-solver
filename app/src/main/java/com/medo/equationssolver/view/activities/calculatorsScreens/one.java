@@ -1,4 +1,4 @@
-package com.medo.equationssolver.view.activities;
+package com.medo.equationssolver.view.activities.calculatorsScreens;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,7 +10,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.medo.equationssolver.R;
-import com.medo.equationssolver.model.recyclerView.Operation;
+import com.medo.equationssolver.view.activities.infoScreen.Operation;
+import com.medo.equationssolver.view.activities.infoScreen.infoScreen;
 
 public class one extends AppCompatActivity {
 EditText et[];

@@ -10,23 +10,25 @@
         android:supportsRtl="true"
         >
         <activity
-            android:name=".view.activities.infoScreen"
+            android:name=".view.activities.infoScreen.infoScreen"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.EquationsSolver"
             />
         <activity
-            android:name=".view.activities.four"
+            android:name=".view.activities.calculatorsScreens.four"
             android:screenOrientation="portrait" android:theme="@style/Theme.EquationsSolver"/>
         <activity
-            android:name=".view.activities.three"
+            android:name=".view.activities.calculatorsScreens.three"
             android:screenOrientation="portrait" android:theme="@style/Theme.EquationsSolver"/>
         <activity
-            android:name=".view.activities.two"
+            android:name=".view.activities.calculatorsScreens.two"
             android:screenOrientation="portrait" android:theme="@style/Theme.EquationsSolver"/>
         <activity
-            android:name=".view.activities.one"
-            android:screenOrientation="portrait" android:theme="@style/Theme.EquationsSolver"/>
+            android:name=".view.activities.calculatorsScreens.one"
+            android:screenOrientation="portrait" android:theme="@style/Theme.EquationsSolver"
+
+            />
         <activity
             android:name=".view.activities.navigationScreen"
             android:screenOrientation="portrait" android:theme="@style/Theme.EquationsSolver"/>

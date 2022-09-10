@@ -1,4 +1,4 @@
-package com.medo.equationssolver.view.activities;
+package com.medo.equationssolver.view.activities.infoScreen;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,8 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.medo.equationssolver.databinding.ActivityMainBinding;
 import com.medo.equationssolver.model.database.DatabaseHandler;
-import com.medo.equationssolver.model.recyclerView.Operation;
-import com.medo.equationssolver.model.recyclerView.RecuclerViewAdapter;
+import com.medo.equationssolver.view.activities.navigationScreen;
 
 import java.util.ArrayList;
 import java.util.List;

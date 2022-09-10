@@ -1,4 +1,4 @@
-package com.medo.equationssolver;
+package com.medo.equationssolver.view.activities.calculatorsScreens;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.medo.equationssolver.R;
+import com.medo.equationssolver.view.activities.infoScreen.Operation;
+import com.medo.equationssolver.view.activities.infoScreen.infoScreen;
 
 import java.lang.Math;
 
@@ -32,11 +36,11 @@ public class two extends AppCompatActivity {
                 if(et[0].getText().toString().isEmpty()||et[1].getText().toString().isEmpty()||et[2].getText().toString().isEmpty()||et[3].getText().toString().isEmpty())
                     Toast.makeText(two.this, "please enter the values", Toast.LENGTH_SHORT).show();
                 else{
-                int a,b,c,r;
-                a=Integer.parseInt(et[0].getText().toString());
-                b=Integer.parseInt(et[1].getText().toString());
-                c=Integer.parseInt(et[2].getText().toString());
-                r=Integer.parseInt(et[3].getText().toString());
+                double a,b,c,r;
+                a=Double.parseDouble(et[0].getText().toString());
+                b=Double.parseDouble(et[1].getText().toString());
+                c=Double.parseDouble(et[2].getText().toString());
+                r=Double.parseDouble(et[3].getText().toString());
 
                 if (r != 0)
                     b-=r;
@@ -45,6 +49,9 @@ public class two extends AppCompatActivity {
                 double sol2 = ((-b) - sqrt) / 2 * a;
                 String sol="the result is : "+String.valueOf(sol1)+" or "+String.valueOf(sol2);
                 tv.setText(sol);
+                    infoScreen.addToDataBase(
+                            new Operation(a+"X^2"+"+"+b+"X+"+c+"="+r,"ans: "+String.valueOf(sol1)+" or "+String.valueOf(sol2),
+                                    "one variable equation (quadratic)"));
             }
             }
         });

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.activities.one">
+    tools:context=".view.activities.calculatorsScreens.one">
 
     <EditText
         android:id="@+id/editTextNumberDecimal"
@@ -15,8 +15,8 @@
         android:hint="@string/a"
         android:inputType="numberSigned|numberDecimal"
         app:layout_constraintBottom_toTopOf="@+id/editTextNumberDecimal2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -38,14 +38,13 @@
         android:id="@+id/editTextNumberDecimal3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/_260sdp"
         android:ems="10"
         android:gravity="center"
         android:hint="@string/r"
         android:inputType="numberSigned|numberDecimal"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal2"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal2"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal2" />
 
@@ -53,45 +52,44 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_99sdp"
-        android:layout_marginStart="@dimen/_8sdp"
-        android:layout_marginEnd="@dimen/_8sdp"
-        android:layout_marginTop="@dimen/_100sdp"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMaxTextSize="32sp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
         android:gravity="center"
+
         android:text="@string/we_deal_with_equation_in_this_form_ax_b_r"
-        android:textSize="@dimen/_20sdp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" android:autoSizeTextType="uniform" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="@dimen/_46sdp"
-      android:layout_marginStart="@dimen/_70sdp"
-        android:layout_marginEnd="@dimen/_70sdp"
         android:background="@drawable/button_background"
 
         android:text="@string/evaluate"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal3"
-        app:layout_constraintVertical_bias="0.287" />
+        app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="@dimen/_315sdp"
+        android:layout_width="0dp"
         android:layout_height="@dimen/_38sdp"
-        android:layout_marginTop="@dimen/_21sdp"
-        android:layout_marginBottom="@dimen/_30sdp"
         android:gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
         android:textSize="@dimen/_20sdp"
         app:layout_constraintBottom_toTopOf="@+id/button5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal3"
-        app:layout_constraintVertical_bias="0.055" />
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal3" />
 </androidx.constraintlayout.widget.ConstraintLayout>

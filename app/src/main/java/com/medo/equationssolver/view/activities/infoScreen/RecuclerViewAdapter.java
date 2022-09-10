@@ -1,4 +1,4 @@
-package com.medo.equationssolver.model.recyclerView;
+package com.medo.equationssolver.view.activities.infoScreen;
 
 import android.app.Dialog;
 import android.content.Context;

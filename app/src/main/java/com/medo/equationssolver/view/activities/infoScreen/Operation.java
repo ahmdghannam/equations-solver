@@ -1,4 +1,4 @@
-package com.medo.equationssolver.model.recyclerView;
+package com.medo.equationssolver.view.activities.infoScreen;
 // the model
 public class Operation {
    private String equations;

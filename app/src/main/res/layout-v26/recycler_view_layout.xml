@@ -54,20 +54,21 @@
 
     <TextView
         android:id="@+id/tvActivityName"
-        android:layout_width="395dp"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_42sdp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="12dp"
         android:fontFamily="cursive"
         android:gravity="center"
         android:text="Activity Name"
         android:textColor="#A73333"
-        android:textSize="34sp"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMaxTextSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/tvInput"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.868" />
+       />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
